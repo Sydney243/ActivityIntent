@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Overrideg
+    @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
         if (mReplyHeadTextView.getVisibility() == View.VISIBLE) {
